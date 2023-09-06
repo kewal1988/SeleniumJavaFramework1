@@ -24,6 +24,7 @@ public class HomePage {
 	public void Perform_Logout() {
 		driver.findElement(loggedInUser).click();
 		driver.findElement(logoutLink).click();
+		
 	}
 	
 	/*
